@@ -2,16 +2,15 @@ nav {
   background-color: rgb(16, 0, 61);
   margin: 0 10%;
   border-radius: 0px 0px 20px 25px;
-  box-sizing: border-box;
   box-shadow: 0px 15px 90px 0px black;
   img {
     margin-left: 30px;
+    width: 100px;
   }
 
   .nav-item {
     margin-right: 25px;
     .nav-link {
-      font-family: "Nunito Sans", sans-serif;
       text-transform: uppercase;
       font-size: 16px;
       color: aliceblue;

@@ -5,4 +5,42 @@
 
 body {
   background-color: rgb(16, 0, 61);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(16, 0, 61);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+@keyframes from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

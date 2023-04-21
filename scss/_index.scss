@@ -1,0 +1,32 @@
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  .img-principal {
+    width: 500px;
+    margin-left: 50px;
+  }
+  .first-principal {
+    color: aliceblue;
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-right: 50px;
+    span {
+      background: linear-gradient(
+        90deg,
+        aliceblue,
+        rgb(0, 209, 157),
+        rgb(0, 175, 206)
+      );
+      color: transparent;
+      -webkit-background-clip: text;
+    }
+  }
+  .second-principal {
+    color: rgb(0, 209, 157);
+    font-size: 3rem;
+    margin-right: 50px;
+    text-transform: capitalize;
+  }
+}

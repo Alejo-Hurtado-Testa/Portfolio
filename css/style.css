@@ -50,6 +50,7 @@ nav .nav-item .active {
   margin-left: 50px;
 }
 .principal .first-principal {
+  font-family: "Nunito Sans", sans-serif;
   color: aliceblue;
   font-size: 5rem;
   text-transform: capitalize;
@@ -61,6 +62,7 @@ nav .nav-item .active {
   -webkit-background-clip: text;
 }
 .principal .second-principal {
+  font-family: "Nunito Sans", sans-serif;
   color: rgb(0, 209, 157);
   font-size: 3rem;
   margin-right: 50px;

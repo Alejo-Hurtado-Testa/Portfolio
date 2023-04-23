@@ -114,6 +114,21 @@ nav .nav-item .active {
   animation: from-left 0.7s ease;
 }
 
+.card {
+  border: none !important;
+}
+.card .card-title {
+  color: aliceblue;
+}
+.card .card-text,
+.card .text-body-secondary {
+  color: rgb(145, 151, 156) !important;
+}
+.card .btn span {
+  margin-left: 8px;
+  text-transform: capitalize;
+}
+
 .pie-pagina {
   width: 100%;
   box-sizing: border-box;

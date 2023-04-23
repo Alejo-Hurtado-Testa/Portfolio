@@ -1,0 +1,14 @@
+.card {
+  border: none !important;
+  .card-title {
+    color: aliceblue;
+  }
+  .card-text,
+  .text-body-secondary {
+    color: rgb(145, 151, 156) !important;
+  }
+  .btn span {
+    margin-left: 8px;
+    text-transform: capitalize;
+  }
+}

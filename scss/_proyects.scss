@@ -1,14 +1,39 @@
-.card {
-  border: none !important;
-  .card-title {
+.principal-proyect {
+  margin: 160px 200px;
+  justify-content: center;
+  align-items: center;
+  .title-proyect {
     color: aliceblue;
-  }
-  .card-text,
-  .text-body-secondary {
-    color: rgb(145, 151, 156) !important;
-  }
-  .btn span {
-    margin-left: 8px;
+    font-size: 5rem;
+    letter-spacing: 2.5px;
     text-transform: capitalize;
+    animation: from-right 0.7s ease;
+  }
+  .text-proyect {
+    color: rgb(145, 151, 156);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    animation: from-right 0.7s ease;
+  }
+  .img-proyect {
+    width: 600px;
+    animation: from-left 0.7s ease;
+  }
+}
+.proyects {
+  margin: 150px 120px;
+  .card {
+    border: none !important;
+    .card-title {
+      color: aliceblue;
+    }
+    .card-text,
+    .text-body-secondary {
+      color: rgb(145, 151, 156) !important;
+    }
+    .btn span {
+      margin-left: 8px;
+      text-transform: capitalize;
+    }
   }
 }

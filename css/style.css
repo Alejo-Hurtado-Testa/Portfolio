@@ -114,17 +114,43 @@ nav .nav-item .active {
   animation: from-left 0.7s ease;
 }
 
-.card {
+.principal-proyect {
+  margin: 160px 200px;
+  justify-content: center;
+  align-items: center;
+}
+.principal-proyect .title-proyect {
+  color: aliceblue;
+  font-size: 5rem;
+  letter-spacing: 2.5px;
+  text-transform: capitalize;
+  animation: from-right 0.7s ease;
+}
+.principal-proyect .text-proyect {
+  color: rgb(145, 151, 156);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  animation: from-right 0.7s ease;
+}
+.principal-proyect .img-proyect {
+  width: 600px;
+  animation: from-left 0.7s ease;
+}
+
+.proyects {
+  margin: 150px 120px;
+}
+.proyects .card {
   border: none !important;
 }
-.card .card-title {
+.proyects .card .card-title {
   color: aliceblue;
 }
-.card .card-text,
-.card .text-body-secondary {
+.proyects .card .card-text,
+.proyects .card .text-body-secondary {
   color: rgb(145, 151, 156) !important;
 }
-.card .btn span {
+.proyects .card .btn span {
   margin-left: 8px;
   text-transform: capitalize;
 }

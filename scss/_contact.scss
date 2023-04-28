@@ -1,0 +1,35 @@
+.principal-contact {
+  .title-contact {
+    text-align: center;
+    margin: 100px 0;
+    color: aliceblue;
+    font-size: 5rem;
+    letter-spacing: 3.5px;
+    animation: from-down 0.8s ease;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    .btn-contact {
+      color: aliceblue;
+      background-color: rgb(61, 61, 255);
+      border: 1px solid rgb(61, 61, 255);
+      border-radius: 50px;
+      padding: 15px 55px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      transition: 0.3s all ease;
+      animation: from-up 0.8s ease;
+      &:hover {
+        background-color: transparent;
+        letter-spacing: 3.5px;
+        color: rgb(61, 61, 255);
+        transition: 0.3s all ease;
+      }
+    }
+  }
+}

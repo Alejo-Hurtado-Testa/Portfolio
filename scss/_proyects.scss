@@ -21,7 +21,7 @@
   }
 }
 .proyects {
-  margin: 150px 120px;
+  margin: 150px 0px;
   .card {
     border: none !important;
     .card-title {
@@ -31,9 +31,17 @@
     .text-body-secondary {
       color: rgb(145, 151, 156) !important;
     }
-    .btn span {
-      margin-left: 8px;
-      text-transform: capitalize;
+    .btn {
+      span {
+        margin-left: 8px;
+        text-transform: capitalize;
+      }
+      &:hover,
+      i:hover {
+        border-color: aliceblue;
+        background-color: aliceblue;
+        color: #005eff;
+      }
     }
   }
 }

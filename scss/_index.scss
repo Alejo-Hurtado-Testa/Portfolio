@@ -5,7 +5,7 @@
   margin: 150px 0px;
   .img-principal {
     width: 500px;
-    margin-left: 50px;
+    margin-right: 50px;
     animation: from-right 0.7s ease;
   }
   .first-principal {
@@ -13,7 +13,7 @@
     letter-spacing: 2.5px;
     font-size: 5rem;
     text-transform: capitalize;
-    margin-right: 50px;
+    margin-left: 50px;
     animation: from-left 0.7s ease;
     span {
       background: linear-gradient(
@@ -30,7 +30,7 @@
     color: rgb(0, 209, 157);
     letter-spacing: 2.5px;
     font-size: 3rem;
-    margin-right: 50px;
+    margin-left: 50px;
     text-transform: capitalize;
     animation: from-left 0.7s ease;
   }

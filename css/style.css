@@ -187,11 +187,76 @@ nav .nav-item .active {
   letter-spacing: 3.5px;
   animation: from-down 0.8s ease;
 }
-.principal-contact .btn {
+.principal-contact .contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+}
+.principal-contact .contact .form-leftside {
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.principal-contact .contact .form-leftside .form-leftside-map {
+  width: 100%;
+}
+.principal-contact .contact .form-rightside {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 7.3% 0 4.7%;
+}
+.principal-contact .contact .form-rightside .form-title {
+  font-size: 3.5rem;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+.principal-contact .contact .form-rightside .contact-form {
+  width: 500px;
+}
+.principal-contact .contact .form-rightside .contact-form .contact-input-line {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 45px;
+}
+.principal-contact .contact .form-rightside .contact-form .contact-label {
+  font-size: 18px;
+  color: rgb(145, 151, 156);
+}
+.principal-contact .contact .form-rightside .contact-form .contact-input {
+  height: 30px;
+  outline: none;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 2px solid aliceblue;
+  width: 100%;
+  color: aqua;
+  background-color: transparent;
+}
+.principal-contact .contact .form-rightside .contact-form .contact-input--textarea {
+  height: 100px;
+  outline: none;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 2px solid aliceblue;
+  width: 100%;
+  color: aqua;
+  background-color: transparent;
+  resize: none;
+}
+.principal-contact .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px 45%;
 }
 .principal-contact .btn .btn-contact {
   color: aliceblue;
@@ -205,6 +270,7 @@ nav .nav-item .active {
   font-size: 1.2rem;
   transition: 0.3s all ease;
   animation: from-up 0.8s ease;
+  -webkit-box-reflect: below 25px linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 140%);
 }
 .principal-contact .btn .btn-contact:hover {
   background-color: transparent;

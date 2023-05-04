@@ -7,11 +7,76 @@
     letter-spacing: 3.5px;
     animation: from-down 0.8s ease;
   }
-  .btn {
+  .contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    .form-leftside {
+      height: 100%;
+      width: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .form-leftside-map {
+        width: 100%;
+      }
+    }
+    .form-rightside {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 0 7.3% 0 4.7%;
+      .form-title {
+        font-size: 3.5rem;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+        color: aliceblue;
+      }
+      .contact-form {
+        width: 500px;
+        .contact-input-line {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+          width: 100%;
+          margin-bottom: 45px;
+        }
+        .contact-label {
+          font-size: 18px;
+          color: rgb(145, 151, 156);
+        }
+        .contact-input {
+          height: 30px;
+          outline: none;
+          padding: 5px 0;
+          border: none;
+          border-bottom: 2px solid aliceblue;
+          width: 100%;
+          color: aqua;
+          background-color: transparent;
+        }
+        .contact-input--textarea {
+          height: 100px;
+          outline: none;
+          padding: 5px 0;
+          border: none;
+          border-bottom: 2px solid aliceblue;
+          width: 100%;
+          color: aqua;
+          background-color: transparent;
+          resize: none;
+        }
+      }
+    }
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 45%;
     .btn-contact {
       color: aliceblue;
       background-color: rgb(61, 61, 255);
@@ -24,6 +89,8 @@
       font-size: 1.2rem;
       transition: 0.3s all ease;
       animation: from-up 0.8s ease;
+      -webkit-box-reflect: below 25px
+        linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 140%);
       &:hover {
         background-color: transparent;
         letter-spacing: 3.5px;

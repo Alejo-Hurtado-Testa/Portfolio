@@ -149,6 +149,25 @@ nav .nav-item .active {
   font-size: 1.2rem;
   letter-spacing: 2px;
   animation: from-right 0.7s ease;
+  margin-bottom: 50px;
+}
+.principal-proyect .btn-downloadcv {
+  animation: from-right 0.7s ease;
+  background-color: aliceblue;
+  color: #005eff;
+  text-decoration: none;
+  padding: 20px 60px;
+  border-radius: 50px;
+  transition: all 0.2s ease;
+}
+.principal-proyect .btn-downloadcv .text-download {
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+.principal-proyect .btn-downloadcv:hover {
+  background-color: #005eff;
+  color: aliceblue;
+  transition: all 0.2s ease;
 }
 .principal-proyect .img-proyect {
   width: 600px;

@@ -1,4 +1,5 @@
 .principal-contact {
+  margin-bottom: 200px;
   .title-contact {
     text-align: center;
     margin: 100px 0;
@@ -11,6 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: from-up 0.8s ease;
+    margin-top: 180px;
     .form-leftside {
       height: 100%;
       width: 50%;
@@ -76,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 150px 45%;
+    margin-top: 80px;
     .btn-contact {
       color: aliceblue;
       background-color: rgb(61, 61, 255);
@@ -88,7 +91,6 @@
       text-transform: capitalize;
       font-size: 1.2rem;
       transition: 0.3s all ease;
-      animation: from-up 0.8s ease;
       -webkit-box-reflect: below 25px
         linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 140%);
       &:hover {

@@ -239,6 +239,7 @@ nav .nav-item .active {
   margin-bottom: 70px;
   text-transform: uppercase;
   color: aliceblue;
+  letter-spacing: 3.5px;
 }
 .principal-contact .contact .form-rightside .contact-form {
   width: 500px;
@@ -254,6 +255,7 @@ nav .nav-item .active {
 .principal-contact .contact .form-rightside .contact-form .contact-label {
   font-size: 18px;
   color: rgb(145, 151, 156);
+  letter-spacing: 2px;
 }
 .principal-contact .contact .form-rightside .contact-form .contact-input {
   height: 30px;

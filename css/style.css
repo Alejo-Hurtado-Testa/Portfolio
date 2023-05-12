@@ -352,4 +352,22 @@ nav .nav-item .active {
   font-style: italic;
 }
 
+@media (max-width: 991.98px) {
+  /* PAGINA DE INICIO */
+  .first-principal,
+  span {
+    font-size: 3rem;
+  }
+  .second-principal {
+    font-size: 2rem;
+  }
+  img-principal {
+    width: 200px;
+  }
+  /* PAGINA DE PROYECTOS */
+  .img-proyect {
+    width: 100px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

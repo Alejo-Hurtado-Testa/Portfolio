@@ -1,21 +1,64 @@
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
   /* PAGINA DE INICIO */
-  .first-principal,
-  span {
-    font-size: 3rem;
-  }
+  .principal {
+    .first-principal {
+      font-size: 25px;
+      margin-left: 30px;
+    }
 
-  .second-principal {
-    font-size: 2rem;
-  }
+    .second-principal {
+      font-size: 19px;
+      margin-left: 30px;
+    }
 
-  img-principal {
-    width: 200px;
+    .img-principal {
+      width: 180px;
+      margin-right: 20px;
+    }
   }
 
   /* PAGINA DE PROYECTOS */
 
-  .img-proyect {
-    width: 100px;
+  .principal-proyect {
+    flex-direction: column;
+    margin: 80px 35px;
+    .title-proyect {
+      font-size: 25px;
+    }
+
+    .text-proyect {
+      font-size: 16px;
+    }
+
+    .img-proyect {
+      width: 280px;
+      margin-top: 40px;
+    }
+  }
+
+  /* PAGINA DE CONTACTO */
+
+  .principal-contact {
+    .title-contact {
+      font-size: 25px;
+    }
+    .contact {
+      flex-direction: column;
+      margin-top: 130px;
+      .form-leftside {
+        height: 200px;
+        width: 100%;
+      }
+      .form-rightside {
+        margin-top: 85px;
+        .form-title {
+          font-size: 27px;
+          margin-bottom: 45px;
+        }
+        .contact-form {
+          width: 300px;
+        }
+      }
+    }
   }
 }

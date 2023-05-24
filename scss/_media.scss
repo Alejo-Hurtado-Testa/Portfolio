@@ -1,19 +1,33 @@
 @media (max-width: 992px) {
   /* PAGINA DE INICIO */
   .principal {
+    flex-direction: column;
     .first-principal {
-      font-size: 25px;
-      margin-left: 30px;
+      font-size: 28px;
+      margin-left: 0px;
     }
 
     .second-principal {
-      font-size: 19px;
-      margin-left: 30px;
+      font-size: 21px;
+      margin-left: 0px;
+    }
+
+    .btncv {
+      margin-left: 0px;
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .btn-downloadcv {
+        padding: 15px 40px;
+        .text-download {
+          font-size: 1rem;
+        }
+      }
     }
 
     .img-principal {
-      width: 180px;
-      margin-right: 20px;
+      width: 270px;
     }
   }
 

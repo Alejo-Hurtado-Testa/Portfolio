@@ -1,0 +1,49 @@
+[
+  {
+    "img": "../imgs/indico.png",
+    "title": "INDICO",
+    "text": "Este es mi último proyecto, desarrollado con el curso de Desarrollo Web de CoderHouse, se trata sobre una página de una empresa de seguridad privada, aplicando estilos más avanzados y mejorados. Esta página es lo que se denomina resposive.",
+    "github": "https://github.com/Alejo-Hurtado-Testa/INDICO",
+    "view": "http://indico.epizy.com/"
+  },
+
+  {
+    "img": "../imgs/buonavita.png",
+    "title": "Farmacia Buona Vita",
+    "text": "Este es un proyecto que hice gracias a los crudos de Alura y en el mismo se muestra cómo configurar una tabla de pacientes para agregar, quitar e incluso cargar nuevos pacientes desde un archivo JSON.",
+    "github": "https://github.com/Alejo-Hurtado-Testa/Farmacia_Buona_Vita_Alura",
+    "view": "https://farmaciabuonavita.netlify.app/"
+  },
+
+  {
+    "img": "../imgs/barberia.png",
+    "title": "Barberia Alura",
+    "text": "Es un proyecto en donde construyo mi primera página web casi funcional sobre una barbería y sus respectivas páginas como de contacto, productos y donde hay más información de otra cosa.",
+    "github": "https://github.com/Alejo-Hurtado-Testa/Primera_Pagina_Web_Alura",
+    "view": "https://barberiaaluraf1.netlify.app/"
+  },
+
+  {
+    "img": "../imgs/portfolio-beta.png",
+    "title": "Portfolio Prueba",
+    "text": "Este es un portafolio de prueba que elabore yo mismo, para poder poner en práctica mis conocimientos, apoyándome en un mini curso de YouTube.",
+    "github": "https://github.com/Alejo-Hurtado-Testa/Portfolio-prueba",
+    "view": "https://portfoliobeta.netlify.app/"
+  },
+
+  {
+    "img": "../imgs/portfolio2.png",
+    "title": "Segunda pagina personal",
+    "text": "Este es mi segundo pretexto de página personal. El mismo fue creado para una entrega del curso Argentina Programa, pudiendo aplicar más estilos que mi primer página.",
+    "github": "https://github.com/Alejo-Hurtado-Testa/Segunda-pagina-personal",
+    "view": "https://alejohtportfolio.netlify.app"
+  },
+
+  {
+    "img": "../imgs/portfolio1.png",
+    "title": "Primera pagina personal",
+    "text": "Este fue mi primer proyecto y página web, llevada a cabo con el curso de Domestika Desarrollador Web Creativo. Contiene estilos muy básicos y otros no tanto, pero fue un comienzo bastante importante hasta la fecha.",
+    "github": "https://github.com/Alejo-Hurtado-Testa/Primera-pagina-personal",
+    "view": "https://portfolioaht.netlify.app/"
+  }
+]

@@ -1,5 +1,5 @@
 .principal-proyect {
-  margin: 160px 200px;
+  margin: 100px 190px;
   justify-content: center;
   align-items: center;
   .title-proyect {
@@ -21,27 +21,56 @@
     animation: from-left 0.7s ease;
   }
 }
+
+.btn-verproyects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: from-up 0.7s ease;
+  .btn-verpr {
+    color: aliceblue;
+    background-color: rgb(61, 61, 255);
+    border: 1px solid rgb(61, 61, 255);
+    border-radius: 50px;
+    padding: 15px 55px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    transition: 0.3s all ease;
+    -webkit-box-reflect: below 25px
+      linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 140%);
+    &:hover {
+      background-color: transparent;
+      letter-spacing: 3.5px;
+      color: rgb(61, 61, 255);
+      transition: 0.3s all ease;
+    }
+  }
+}
+
 .proyects {
-  margin: 150px 0px;
-  .card {
-    border: none !important;
-    .card-title {
-      color: aliceblue;
-    }
-    .card-text,
-    .text-body-secondary {
-      color: rgb(145, 151, 156) !important;
-    }
-    .btn {
-      span {
-        margin-left: 8px;
-        text-transform: capitalize;
+  margin: 100px 0px;
+  .animation {
+    animation: from-up 0.7s ease;
+    .card {
+      border: none !important;
+      .card-title {
+        color: aliceblue;
       }
-      &:hover,
-      i:hover {
-        border-color: aliceblue;
-        background-color: aliceblue;
-        color: #005eff;
+      .card-text,
+      .text-body-secondary {
+        color: rgb(145, 151, 156) !important;
+      }
+      .btn {
+        span {
+          margin-left: 8px;
+          text-transform: capitalize;
+        }
+        &:hover,
+        i:hover {
+          border-color: aliceblue;
+          background-color: aliceblue;
+          color: #005eff;
+        }
       }
     }
   }

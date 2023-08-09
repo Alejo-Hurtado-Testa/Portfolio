@@ -164,7 +164,7 @@ nav .nav-item .active {
 }
 
 .principal-proyect {
-  margin: 160px 200px;
+  margin: 100px 190px;
   justify-content: center;
   align-items: center;
 }
@@ -187,25 +187,52 @@ nav .nav-item .active {
   animation: from-left 0.7s ease;
 }
 
-.proyects {
-  margin: 150px 0px;
+.btn-verproyects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: from-up 0.7s ease;
 }
-.proyects .card {
+.btn-verproyects .btn-verpr {
+  color: aliceblue;
+  background-color: rgb(61, 61, 255);
+  border: 1px solid rgb(61, 61, 255);
+  border-radius: 50px;
+  padding: 15px 55px;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  transition: 0.3s all ease;
+  -webkit-box-reflect: below 25px linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 140%);
+}
+.btn-verproyects .btn-verpr:hover {
+  background-color: transparent;
+  letter-spacing: 3.5px;
+  color: rgb(61, 61, 255);
+  transition: 0.3s all ease;
+}
+
+.proyects {
+  margin: 100px 0px;
+}
+.proyects .animation {
+  animation: from-up 0.7s ease;
+}
+.proyects .animation .card {
   border: none !important;
 }
-.proyects .card .card-title {
+.proyects .animation .card .card-title {
   color: aliceblue;
 }
-.proyects .card .card-text,
-.proyects .card .text-body-secondary {
+.proyects .animation .card .card-text,
+.proyects .animation .card .text-body-secondary {
   color: rgb(145, 151, 156) !important;
 }
-.proyects .card .btn span {
+.proyects .animation .card .btn span {
   margin-left: 8px;
   text-transform: capitalize;
 }
-.proyects .card .btn:hover,
-.proyects .card .btn i:hover {
+.proyects .animation .card .btn:hover,
+.proyects .animation .card .btn i:hover {
   border-color: aliceblue;
   background-color: aliceblue;
   color: #005eff;

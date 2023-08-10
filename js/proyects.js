@@ -45,7 +45,7 @@ btnVerProyectos.addEventListener('click', async () => {
 
 async function pedirProyectos() {
   try {
-    const res = await fetch('/js/proyectos.json');
+    const res = await fetch('../assets/proyectos.json');
     const data = await res.json();
     return data;
   } catch (error) {

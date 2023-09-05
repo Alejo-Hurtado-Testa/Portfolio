@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(16, 0, 61);
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 /*
 .separador {
@@ -74,5 +74,14 @@ body {
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
   }
 }

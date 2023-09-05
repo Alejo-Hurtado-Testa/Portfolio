@@ -75,3 +75,50 @@
     }
   }
 }
+
+.tech-habilities {
+  margin: 95px 0;
+  .title-technologys {
+    margin-left: 190px;
+    color: aliceblue;
+    font-size: 3.5rem;
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+  }
+  .logos {
+    overflow: hidden; /* PARA QUE NO HAYA UN SCROLEO PARA EL COSTADO */
+    padding: 50px 0;
+    white-space: nowrap; /* FUNCIONA COMO DISPLAY FLEX, SOLO QUE EN ESTE CASO ESTE ES EL MEJOR */
+    position: relative;
+    &::before,
+    &::after {
+      position: absolute;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      content: '';
+      z-index: 1;
+    }
+    &::after {
+      right: 0;
+      background: linear-gradient(to right, rgba(16, 0, 61, 0), rgb(16, 0, 61));
+    }
+    &::before {
+      left: 0;
+      background: linear-gradient(to left, rgba(16, 0, 61, 0), rgb(16, 0, 61));
+    }
+    &:hover {
+      .logos-slide {
+        animation-play-state: paused; /* PAUSAR LA ANIMACION AL HACER HOVER SOBRE EL DIV PADRE */
+      }
+    }
+    .logos-slide {
+      display: inline-block;
+      animation: 35s slide infinite linear;
+      img {
+        height: 100px;
+        margin: 0 40px;
+      }
+    }
+  }
+}

@@ -1,8 +1,24 @@
 [
   {
+    "img": "../imgs/suburbio.png",
+    "title": "Suburbio Club",
+    "text": "Paigna de presentacion sobre el club, su rubro y para hacer reservas hecha a pedido por el cliente. Trabajo freelance.",
+    "github": "https://github.com/Alejo-Hurtado-Testa/Suburbio",
+    "view": "https://suburbioclub.netlify.app"
+  },
+
+  {
+    "img": "../imgs/luxorstore.png",
+    "title": "Luxor Store",
+    "text": "Ecommerce sobre la venta de bebidas. Se  utiliza firebase para almacenar los productos y almacenar la orden generada por medio de un formulario",
+    "github": "https://github.com/Alejo-Hurtado-Testa/Luxor-ecommerce",
+    "view": "https://luxorstore.netlify.app"
+  },
+
+  {
     "img": "../imgs/maxpower.png",
     "title": "Max Power",
-    "text": "Un proyecto realizado con el curso de JavaScript de coderhouse, en el trabaje con eventos cambiando el DOM, consumiendo una api local mediante un json, entre otras cosas. El mismo simula un surtidor de combustible, seleccionas los litros y el combustible que deseas cargar, luego calcula el precio total.",
+    "text": "Un proyecto realizado con el curso de JavaScript de coderhouse. El mismo simula un surtidor de combustible.",
     "github": "https://github.com/Alejo-Hurtado-Testa/Surtidor-de-Combustible",
     "view": "https://maxpowereds.netlify.app/"
   },
@@ -10,7 +26,7 @@
   {
     "img": "../imgs/indico.png",
     "title": "INDICO",
-    "text": "Este proyecto, desarrollado con el curso de Desarrollo Web de CoderHouse, se trata sobre una página de una empresa de seguridad privada, aplicando estilos más avanzados y mejorados. Esta página es lo que se denomina resposive.",
+    "text": "Este proyecto, desarrollado con el curso de Desarrollo Web de CoderHouse, se trata sobre una página de una empresa de seguridad privada.",
     "github": "https://github.com/Alejo-Hurtado-Testa/INDICO",
     "view": "https://indicosp.netlify.app/"
   },
@@ -18,7 +34,7 @@
   {
     "img": "../imgs/buonavita.png",
     "title": "Farmacia Buona Vita",
-    "text": "Este es un proyecto que hice gracias a los crudos de Alura y en el mismo se muestra cómo configurar una tabla de pacientes para agregar, quitar e incluso cargar nuevos pacientes desde un archivo JSON.",
+    "text": "Proyecto elaborado los curdos de Alura y en el mismo se muestra cómo configurar una tabla de pacientes para agregar, quitar e incluso cargar nuevos pacientes.",
     "github": "https://github.com/Alejo-Hurtado-Testa/Farmacia_Buona_Vita_Alura",
     "view": "https://farmaciabuonavita.netlify.app/"
   },
@@ -26,7 +42,7 @@
   {
     "img": "../imgs/barberia.png",
     "title": "Barberia Alura",
-    "text": "Es un proyecto en donde construyo mi primera página web casi funcional sobre una barbería y sus respectivas páginas como de contacto, productos y donde hay más información de otra cosa.",
+    "text": "Es un proyecto en donde construyo mi primera página web casi funcional sobre una barbería y sus respectivas páginas como de contacto, productos, etc.",
     "github": "https://github.com/Alejo-Hurtado-Testa/Primera_Pagina_Web_Alura",
     "view": "https://barberiaaluraf1.netlify.app/"
   },
@@ -50,7 +66,7 @@
   {
     "img": "../imgs/portfolio1.png",
     "title": "Primera pagina personal",
-    "text": "Este fue mi primer proyecto y página web, llevada a cabo con el curso de Domestika Desarrollador Web Creativo. Contiene estilos muy básicos y otros no tanto, pero fue un comienzo bastante importante hasta la fecha.",
+    "text": "Este fue mi primer proyecto y página web, llevada a cabo con el curso de Domestika Desarrollador Web Creativo. Contiene estilos muy básicos.",
     "github": "https://github.com/Alejo-Hurtado-Testa/Primera-pagina-personal",
     "view": "https://portfolioaht.netlify.app/"
   }
